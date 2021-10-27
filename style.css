@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Lobster&family=Merriweather+Sans:ital,wght@1,300&display=swap');
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  background-color: F4EEFF;
+  font-size:15px;
+  line-height: 1
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: bold
+}
+
+h1 {
+  color: 00005C;
+}
+h2 {
+  color: 00005C;
+}
+
+a {
+  font-weight: bold;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  color: C060A1;
+}
+a:hover {
+  color: 6A097D;
+}
+
+.img-circle {
+  width: 300px;
+  border-radius: 100%;
+}
+.card-white {
+    background: azure;
+    padding: 40;
+    margin: 40;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    text-align: center;
+}
+
+.btn-purple {
+  background-color: C060A1;
+  color: azure;
+  padding: 8px 24px;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+.btm-hover {
+  background-color: C060A1;
+  color: 6A097D;
+}
+.skills {
+  display: flex;
+   justify-content: space-evenly;
